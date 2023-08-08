@@ -12,7 +12,7 @@ public class Ejercicio21 {
         JOptionPane.showMessageDialog(null, "La letra '" + letra + "' aparece " + contador + " veces en la cadena.");
     }
 
-    public static int contarLetra(String cadena, char letra) {
+    private static int contarLetra(String cadena, char letra) {
         int contador = 0;
         for (int i = 0; i < cadena.length(); i++) {
             if (cadena.charAt(i) == letra) {
